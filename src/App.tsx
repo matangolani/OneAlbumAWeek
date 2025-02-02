@@ -52,14 +52,17 @@ function App() {
   };
 
   return (
-    <div id="root">
-      <h1>One Album A Week</h1>
+    
+    <div id="root" className="bg-gradient-to-r from-slate-400 to-slate-500 p-6 w-full">
+      <Typography variant="h1" color="black" className="text-center" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
+        One Album A Week
+      </Typography>
       <div className="card">
         <AlbumCard
           {...albumsData[currentAlbumIndex]}
         />
       </div>
-      <Typography variant="h6" color="gray" className="uppercase font-bold" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
+      <Typography variant="h6" color="black" className="uppercase font-bold" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
         {albumsData[currentAlbumIndex].date}
       </Typography>
       <div className="">

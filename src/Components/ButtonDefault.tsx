@@ -6,5 +6,5 @@ interface ButtonDefaultProps {
 }
 
 export function ButtonDefault({ sign, onClick } : ButtonDefaultProps ){
-  return <Button onClick={onClick} className="m-5"  variant="outlined" color="gray" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>{sign}</Button>;
+  return <Button onClick={onClick} className="m-5"  variant="gradient" color="white" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>{sign}</Button>;
 }
