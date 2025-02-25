@@ -1,7 +1,4 @@
 import './App.css'
-import { AlbumCard } from './Components/AlbumCard'
-import { Button, Typography } from "@material-tailwind/react";
-import { ButtonDefault } from './Components/ButtonDefault';
 import { useState } from 'react';
 
 interface Album {
