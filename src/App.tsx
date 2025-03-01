@@ -12,7 +12,7 @@ interface Album {
 
 const albumsData: Album[] = [
   {
-    image: "/src/assets/ABNH.png",
+    image: "assets/ABNH.png",
     title: "Alligator Bites Never Heal",
     artist: "Doechii",
     favoriteSongs: ["BLOOM", "DENIAL IS A RIVER", "WAIT"],
@@ -20,7 +20,7 @@ const albumsData: Album[] = [
     date: "January W1",
   },
   {
-    image: "/src/assets/Currents.png",
+    image: "assets/Currents.png",
     title: "Currents",
     artist: "Tame Impala",
     favoriteSongs: ["Let It Happen", "Past Life", "Cause I'm a Man"],
@@ -28,7 +28,7 @@ const albumsData: Album[] = [
     date: "January W2",
   },
   {
-    image: "/src/assets/CRG.jpg",
+    image: "assets/CRG.jpg",
     title: "Can't Rush Greatness",
     artist: "Central Cee",
     favoriteSongs: ["Gata", "CRG", "Now We're Strangers"],
@@ -36,7 +36,7 @@ const albumsData: Album[] = [
     date: "January W3",
   },
   {
-    image: "/src/assets/HUP.jpeg",
+    image: "assets/HUP.jpeg",
     title: "Hurry Up Tommorow",
     artist: "The Weeknd",
     favoriteSongs: ["Wake Me Up", "Timeless","Niagra Falls"],
@@ -44,7 +44,7 @@ const albumsData: Album[] = [
     date: "Feburary W1",
   },
   {
-    image: "/src/assets/SIMBI.jpeg",
+    image: "assets/SIMBI.jpeg",
     title: "Sometimes I Might Be Introvert",
     artist: "Little Simz",
     favoriteSongs: ["Protect My Energy", "Point and Kill", "Miss Understood"],
@@ -52,7 +52,7 @@ const albumsData: Album[] = [
     date: "Feburary W2",
   },
   {
-    image: "/src/assets/LS.png",
+    image: "assets/LS.png",
     title: "Liquid Swords",
     artist: "GZA",
     favoriteSongs: ["Living in the World Today", "Shadowboxin'", "Liquid Swords"],
